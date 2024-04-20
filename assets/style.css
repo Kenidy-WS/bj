@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    .box {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: #000;
+    height: 250px;
+    width: 350px;
+    border-radius: 50px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: solid 2px #FFF;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .button-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+    }
+
+    .button{
+    height: 30px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid 1px #FFF;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    }
+
+
+    button {
+    
+    background:;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 600;
+    }
