@@ -1,65 +1,21 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 <head>
-<style>
-body {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-}
-
-a {
-text-decoration: none;
-}
-
-.box {
-font-size: 20px;
-color: white;
-height: 250px;
-width: 350px;
-border-radius: 10px;
-background: #191919;
-flex-direction: column;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-.button-container {
-display: flex;
-justify-content: space-around;
-height: 50px;
-width: 150px;
-}
-button {
-height: 30px;
-width: 50px;
-background: white;
-border-radius: 5px;
-color: blue;
-font-weight: 600;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
 </head>
 <body>
-<div class="box">
-<p>Me da um beijo?</p>
-<div class="button-container">
-<button>
-<a href="https://teste.com">Sim</a>
-</button>
-<button id="no">Nao</button>
-</div>
-</div>
+    <div class="box">
+        <p>Amor, me da o cuzinho?😊</p>
+        <div class="button-container">
+        <button class="button">
+        <a href="https://wa.me/5565999002184?text=Oi!%20amor%20vou%20dar%20o%20cuzinho%20sim!%20👌❤️😈">Sim</a>
+        </button>
+        <button id="no" class="button">Não</button>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
 </body>
-<script>
-let button = document.getElementById('no');
-let height = window.innerHeight - 50;
-let width = window.innerWidth -50;
-button.addEventListener('mouseover', function () {
-button.style.position = "absolute";
-button.style.top = Math.random() * height + "px";
-button.style.left = Math.random() * width + "px";
-})
-</script>
 </html>
